@@ -40,9 +40,9 @@ This command will produce the files ```ARC-Challenge-*-question-reform.nn-qa-par
 This is the proposed reader to predict the answer for the multiple-choice questions based on the question, choices and paragraphs. Please ```cd reader``` into that folder.
 The reader and the selector are built upon the same code base from [Yuanfudao](https://github.com/intfloat/commonsense-rc). Hence the training and inference are similar to the sereader
 1. Train the model on the ARC dataset.
-Similarly, we provide the preprocessed dataset in the [data]() folder. Download the folder and put it under the reader folder. 
+Similarly, we provide the preprocessed dataset in the [data](https://drive.google.com/drive/folders/1u-7HwjjehLjQ2b-qe8qhLjTRflcJfAO2?usp=sharing) folder. Download the folder and put it under the reader folder. 
 If you choose to preprocess dataset by yourself, please run ./run.sh to preprocess dataset. After obtaining the data, you can start to train the model. 
-The trained model will be stored in the checkpoint folder. We also provide the pre-trained model [here]().
+The trained model will be stored in the checkpoint folder. We also provide the pre-trained model [here](https://drive.google.com/open?id=19IKe3tZsRLl2wwdpxxWTvNPY20oScQ8S).
 
 ### Requirements
 - PyTorch=0.4
